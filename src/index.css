@@ -1,13 +1,42 @@
+:root {
+  --pink-color: #f5dac9;
+  --dark-blue: #048895;
+  --light-blue: #87c1c2;
+  --orange-color: #eb7424;
+  --red-color: #a43627;
+  --black-color: #000000;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Proxima Nova", sans-serif;
+  font-size: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 10000px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+/* start navbar */
+.navbar {
+  background-color: var(--red-color);
+  font-family: "Proxima Nova";
+}
+.navbar .nav .nav-link,
+.navbar .nav-brand {
+  color: var(--pink-color);
+  font-size: 25px;
+}
+.navbar .nav .nav-link.active,
+.navbar .nav-link:focus,
+.navbar .nav .nav-link:hover {
+  color: var(--orange-color);
+}
+.navbar .nav-brand:hover {
+  color: var(--pink-color);
+}
+
+/* end navbar*/

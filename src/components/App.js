@@ -9,9 +9,7 @@ export default  function App() {
   return (
     <div className="App">
       <Header/>
-      <BLogList/>
-      <BLogPost/>
-      <Footer/>
+      
     </div>
   );
 }

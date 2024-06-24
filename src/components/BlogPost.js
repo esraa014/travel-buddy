@@ -1,3 +1,3 @@
-export default function BLogPost() {
-    return <h1>BLogPost</h1>;
-  }
+export default function BlogPost() {
+  return <h1>BLogPost</h1>;
+}
