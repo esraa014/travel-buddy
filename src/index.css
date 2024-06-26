@@ -1,10 +1,11 @@
 :root {
-  --pink-color: #f5dac9;
+  --pink-color: #ffccac;
   --dark-blue: #048895;
   --light-blue: #87c1c2;
   --orange-color: #eb7424;
   --red-color: #a43627;
   --black-color: #000000;
+  --brown-color: #b25e39;
 }
 
 body {
@@ -20,23 +21,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 /* start navbar */
 .navbar {
-  background-color: var(--red-color);
+  background-color: white;
   font-family: "Proxima Nova";
 }
 .navbar .nav .nav-link,
 .navbar .nav-brand {
-  color: var(--pink-color);
-  font-size: 25px;
+  color: var(--light-blue);
+  font-size: x-large;
 }
+/* .navbar .nav .title{
+  color: var(--pink-color);
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+} */
 .navbar .nav .nav-link.active,
 .navbar .nav-link:focus,
 .navbar .nav .nav-link:hover {
-  color: var(--orange-color);
+  color: var(--dark-blue);
 }
 .navbar .nav-brand:hover {
   color: var(--pink-color);
 }
 
 /* end navbar*/
+/* start slideshow */
+.c-item {
+  height: 500px;
+}
+.c-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.c-caption {
+  background-color: var(-pink-color);
+}
+.c-caption p {
+  font-family: "Proxima Nova";
+  color: var(--pink-color);
+  font-weight: bolder;
+  font-size: x-large;
+}
+.c-caption h1 {
+  font-family: "Proxima Nova";
+  color: var(--pink-color);
+  font-weight: bolder;
+}
+.c-caption a {
+  background-color: var(--pink-color);
+  padding: 0.5rem 1rem;
+  color: var(--dark-blue);
+}
+.c-caption a:hover {
+  background-color: var(--light-blue);
+  color: var(--pink-color);
+}
+
+
+/* Change color of carousel indicators  */
+.cc .carousel-indicators .active {
+  background-color: var(--light-blue);
+}
+
+
+
+/* end slideshow */
