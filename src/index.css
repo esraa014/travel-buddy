@@ -6,6 +6,12 @@
   --red-color: #a43627;
   --black-color: #000000;
   --brown-color: #b25e39;
+  --light-pink: #ffcfb1;
+  --color-blue: #23616b;
+  --color-navy: #064660;
+  --color-grey: #9fb1b5;
+  --color-lightgrey: #e2dad7;
+  --color-gold: #d0912d;
 }
 
 body {
@@ -23,9 +29,12 @@ code {
 }
 
 /* start navbar */
+.app {
+  font-family: "Proxima Nova";
+  background-color: white;
+}
 .navbar {
   background-color: white;
-  font-family: "Proxima Nova";
 }
 .navbar .nav .nav-link,
 .navbar .nav-brand {
@@ -62,31 +71,36 @@ code {
 }
 .c-caption p {
   font-family: "Proxima Nova";
-  color: var(--pink-color);
+  color: white;
   font-weight: bolder;
   font-size: x-large;
 }
 .c-caption h1 {
-  font-family: "Proxima Nova";
   color: var(--pink-color);
   font-weight: bolder;
 }
 .c-caption a {
   background-color: var(--pink-color);
   padding: 0.5rem 1rem;
-  color: var(--dark-blue);
+  color: white;
 }
 .c-caption a:hover {
   background-color: var(--light-blue);
-  color: var(--pink-color);
+  color: white;
 }
-
 
 /* Change color of carousel indicators  */
 .cc .carousel-indicators .active {
   background-color: var(--light-blue);
 }
-
-
-
 /* end slideshow */
+/* start WelcomContainer */
+.WelcomContainer {
+  background-color: var(--pink-color);
+}
+.WelcomContainer h1,
+p {
+  color: white;
+}
+
+/* end WelcomContainer */

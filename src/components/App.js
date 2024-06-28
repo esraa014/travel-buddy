@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import ImageCarousel from "./Carousel";
 import Header from "./Header";
+import WelcomContainer from "./WelcomContainer";
 const images = [
   {
     src: "imgs/slide1.jpg",
@@ -46,9 +47,10 @@ const images = [
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header />
       <ImageCarousel images={images} />
+      <WelcomContainer />
     </div>
   );
 }
